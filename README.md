@@ -13,7 +13,7 @@
  The configuration of our final dataset is shown as follows (you can surely change the partition by change some parameters in _coco_data.py_):
  
  
-  |                     | images                        | texts       | labels               |
+  | Configuration tabel | images                        | texts       | labels               |
   |         ----        | :---- :                       |:----:       | :----:               |
   |   training instance |    10000                      | 10000       |  10000               |
   | test(query) instance|    2500                       |  2500       |   2500               |
