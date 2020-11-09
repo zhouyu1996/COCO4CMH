@@ -14,7 +14,7 @@
  
  
   |                     | images                        | texts       | labels               |
-  |         --------    | :-------- :                   |:-----:      | :----:               |
+  |         ----        | :---- :                       |:----:       | :----:               |
   |   training instance |    10000                      | 10000       |  10000               |
   | test(query) instance|    2500                       |  2500       |   2500               |
   | retrieval instance  |   40000                       |  40000      | 40000                |
