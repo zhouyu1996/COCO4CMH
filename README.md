@@ -4,8 +4,8 @@
 ##### 0. update
  
  I fixed a bug in our project.
- The bug is that the np.random.randint() may produce the same index to conduct our dataset.
- we can use this np.random.sample() to select different number from a array.
+ The bug is that the _np.random.randint()_ may produce the same index to conduct our dataset.
+ we can use this _random.sample()_ to select different number from a array.
 
 ##### 1. introduction  
 
