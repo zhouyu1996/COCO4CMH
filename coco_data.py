@@ -13,6 +13,7 @@ import numpy as np
 #from pycocotools.coco import COCO
 import os.path
 import h5py
+import random
 
 coco_url = r'/data/zydata/coco2014'
 # this fold contains all the training images
@@ -189,6 +190,7 @@ def generate_mat():
     tags = np.zeros((42500, 2000))
     imgs = np.zeros((42500, 256, 256, 3), dtype=np.int32)
     labels = np.zeros((42500, 80))
+    # val_ind = random.sample(range(0, 40137), 2500)
     val_ind = np.random.randint(low=0, high=40137, size=2500, dtype='l')
     current = 0
     # query set
@@ -205,7 +207,9 @@ def generate_mat():
         current = current+1
     assert (current == 2500)
 
+    # train_ind = random.sample(range(40137, 82081 + 40137), 40000)
     train_ind = np.random.randint(low=40137, high=82081+40137, size=40000, dtype='l')
+
     # database data
     for x in train_ind:
         index[current] = x

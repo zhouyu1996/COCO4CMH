@@ -1,9 +1,15 @@
 ## MS COCO dataset for cross-modal hashing 
 
+
+##### 0. update
+ 
+ I fixed a bug in our project.
+ The bug is that the np.random.randint() may produce the same index to conduct our dataset.
+ we can use this np.random.sample() to select different number from a array.
+
 ##### 1. introduction  
 
  This repository is created to handle the original MS COCO-2014 dataset for cross-modal retrieval task.
-
 
 
 ##### 2. configurations
