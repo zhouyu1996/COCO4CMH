@@ -25,7 +25,7 @@
 
 | Configuration tabel  |            images             |   texts    |       labels        |
 | :------------------: | :---------------------------: | :--------: | :-----------------: |
-|  training instance   |             5000              |  5000      |        000        |
+|  training instance   |             5000              |  5000      |        5000        |
 | test(query) instance |             2500              |    2500    |        2500         |
 | retrieval(database) instance  |             40000             |   40000    |        40000        |
 |    representation    | 256 &times; 256 &times; 3 RGB | 2000-d BOW | 80-d one-hot vector |
